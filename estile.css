@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+
+  background-color: rgb(33, 33, 90);
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.3em;
+}
+h3 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1.5;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-size: 1em;
+}
+
+button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 9px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px, rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blueviolet;
+}
+
+button:hover {
+  background-color: rgb(101, 33, 165);
+}
+.container {
+  max-width: 1400px;
+}
+.color-acento {
+  color: blueviolet;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.nav {
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  gap: 4px;
+  border-radius: 3px;
+}
+
+nav .logo {
+  margin-left: 10px;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 2em;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 75%;
+  margin-right: 40px;
+}
+nav ul li:hover {
+  transform: scale(1.1);
+}
+
+nav a {
+  padding: 2px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+nav a:hover {
+  color: blueviolet;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.385),
+      rgba(0, 0, 0, 0.274)
+    ),
+    url("nuevo\ logo.jpg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#hero h1 {
+  color: white;
+}
+
+#Raices .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  gap: 30px;
+}
+
+#Nuestros-Servicios {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#Nuestros-Servicios .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+#Nuestros-Servicios .Servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#Nuestros-Servicios h3 {
+  margin-top: 0;
+  font-size: 3, 2em;
+}
+
+#Nuestros-Servicios p {
+  display: none;
+}
+
+#Nuestros-Servicios .carta {
+  background-position: center;
+  background-size: cover;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.carta:nth-child(1) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.318),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(un-hombre-corta-árbol-con-una-motosierra-poda-de-árboles-210915828.jpg);
+  width: 310px;
+  height: 360px;
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.318),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(mantenimiento-jardines-malaga-8.jpg);
+  width: 310px;
+  height: 360px;
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.315),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(k1m993Os1637085059.jpg);
+  width: 310px;
+  height: 360px;
+}
+
+.carta:nth-child(4) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.316),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(camion\ .jpg);
+  width: 310px;
+  height: 360px;
+}
+
+#Caracteristicas .container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+#Caracteristicas li {
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: gray;
+}
+
+footer p {
+  margin: 0;
+  padding: 5px;
+  color: black;
+}
+footer .container {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media (min-width: 720px) {
+  .nav {
+    position: fixed;
+    width: 100%;
+  }
+}
+
+#Nuestros-Servicios p {
+  display: block;
+  margin-bottom: 20px;
+}
+#Nuestros-Servicios h3 {
+  margin-top: 0;
+}
+
+#Nuestros-Servicios .carta {
+  padding: 30px;
+  box-shadow: 2px 2px 10px;
+}
+#Raices .texto {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 100px;
+}
+
+#Raices .img-container {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(WhatsApp\ Image\ 2023-03-06\ at\ 19.28.37.jpeg);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 40%;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.img-caracteristicas {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(IMG_20210127_122625.jpg);
+  background-size: cover;
+  background-position-x: center center;
+  height: 400px;
+  width: 40%;
+  border-radius: 20px;
+}
+
+.texto-caracteristicas {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1100px;
+  background-color: rgb(40, 14, 65);
+  color: white;
+  border-radius: 20px;
+  margin: 150px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+form input {
+  border: 2px solid #ccc;
+  padding: 6px;
+  border-radius: 7px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Raices .h2 {
+  display: flex;
+  justify-content: space-between;
+}
