@@ -256,6 +256,13 @@ footer .container {
     position: fixed;
     width: 100%;
   }
+  main {
+    justify-content: center;
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
 
 #Nuestros-Servicios p {
