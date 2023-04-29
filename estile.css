@@ -251,7 +251,7 @@ footer .container {
   justify-content: center;
   align-items: flex-end;
 }
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   .nav {
     position: fixed;
     width: 100%;
