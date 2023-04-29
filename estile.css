@@ -130,8 +130,8 @@ nav a:hover {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 250px;
   gap: 30px;
 }
 
@@ -229,8 +229,8 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   margin-top: 200px;
-  margin-bottom: 100px;
-  padding-top: 70px;
+
+  padding-top: 100px;
 }
 
 #Caracteristicas li {
