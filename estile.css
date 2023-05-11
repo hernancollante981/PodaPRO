@@ -15,9 +15,7 @@ body {
   background-color: rgb(33, 33, 90);
   max-width: 1200px;
 }
-.header {
-  width: 100%;
-}
+
 h1 {
   font-size: 3em;
 }
