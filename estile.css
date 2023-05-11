@@ -13,7 +13,7 @@ html {
 body {
   font-family: "Playfair Display", serif;
   background-color: rgb(33, 33, 90);
-  width: 100%;
+  width: 109%;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -108,7 +108,7 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 100vh;
+  height: 150vh;
   max-width: 100%;
   color: white;
   background-image: linear-gradient(
@@ -119,8 +119,8 @@ nav a:hover {
     url("nuevo\ logo.jpg.png");
   background-size: cover;
   background-position: center;
-
   gap: 30px;
+  padding-top: 60px;
 }
 
 #hero h1 {
@@ -258,7 +258,7 @@ footer .container {
 @media (min-width: 576px) {
   .body,
   .hero,
-  .nav {
+  .header {
     margin: 0;
     padding: 0;
     position: fixed;
