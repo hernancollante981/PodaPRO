@@ -15,8 +15,8 @@ body {
   background-color: rgb(33, 33, 90);
   max-width: 1200px;
 }
-.header´ {
-  max-width: 1200px;
+.header {
+  width: 100%;
 }
 h1 {
   font-size: 3em;
@@ -254,8 +254,9 @@ footer .container {
   justify-content: center;
   align-items: flex-end;
 }
-@media (max-width: 576px) {
+@media (min-width: 300px) {
   .body,
+  .header,
   .nav {
     position: fixed;
     width: 100%;
