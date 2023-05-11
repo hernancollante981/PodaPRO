@@ -255,7 +255,7 @@ footer .container {
   justify-content: center;
   align-items: flex-end;
 }
-@media (min-width: 226px) {
+@media (min-width: 576px) {
   .body,
   .hero,
   .nav {
