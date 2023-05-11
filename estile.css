@@ -14,14 +14,6 @@ body {
   font-family: "Playfair Display", serif;
   background-color: rgb(33, 33, 90);
   width: 100%;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
 }
 
 h1 {
