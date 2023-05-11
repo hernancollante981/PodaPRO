@@ -14,7 +14,9 @@ body {
   font-family: "Playfair Display", serif;
   background-color: rgb(33, 33, 90);
 }
-
+.header´ {
+  max-width: 1200px;
+}
 h1 {
   font-size: 3em;
 }
@@ -50,7 +52,7 @@ button:hover {
   background-color: rgb(101, 33, 165);
 }
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
 }
 .color-acento {
   color: blueviolet;
