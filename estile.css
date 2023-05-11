@@ -14,6 +14,9 @@ body {
   font-family: "Playfair Display", serif;
   background-color: rgb(33, 33, 90);
   width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -252,9 +255,11 @@ footer .container {
   justify-content: center;
   align-items: flex-end;
 }
-@media (min-width: 576px) {
+@media (min-width: 226px) {
   .body,
   .nav {
+    margin: 0;
+    padding: 0;
     position: fixed;
     width: 100%;
     display: block;
