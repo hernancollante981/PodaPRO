@@ -13,6 +13,7 @@ html {
 body {
   font-family: "Playfair Display", serif;
   background-color: rgb(33, 33, 90);
+  max-width: 1200px;
 }
 .header´ {
   max-width: 1200px;
@@ -253,7 +254,7 @@ footer .container {
   justify-content: center;
   align-items: flex-end;
 }
-@media (min-width: 300px) {
+@media (min-width: 576px) {
   .body,
   .nav {
     position: fixed;
